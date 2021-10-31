@@ -295,9 +295,10 @@
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/circle"
+                android:backgroundTint="#127569"
                 android:onClick="equalEvent"
                 android:text="@string/equals"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="@dimen/textSizeBtn" />
         </TableRow>
     </TableLayout>
@@ -328,7 +329,7 @@
         android:text=""
         android:textAlignment="textEnd"
         android:textColor="#737171"
-        android:textSize="34sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

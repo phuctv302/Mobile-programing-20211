@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">form</string>
+    <string name="the_thao">The thao</string>
+    <string name="du_lich">du lich</string>
+    <string name="am_nhac">am nhac</string>
+    <string name="name_text_view">Họ tên</string>
+    <string name="name_text_input">Nhập họ tên</string>
+    <string name="id_text_view">MSSV</string>
+    <string name="id_text_input">MSSV</string>
+    <string name="birth_text_view">Ngày sinh</string>
+    <string name="birth_text_input">DD/MM/YYYY</string>
+    <string name="gender_text_view">Giới tính</string>
+    <string name="address_text_view">Địa chỉ</string>
+    <string name="phone_text_view">SĐT</string>
+    <string name="email_text_view">Email</string>
+    <string name="address_text_input">Nhập địa chỉ</string>
+    <string name="phone_text_input">Nhập số điện thoại</string>
+    <string name="email_text_input">Nhập email</string>
+    <string name="hobby_text_view">Sở thích</string>
+    <string name="sport_checkbox">Thể Thao</string>
+    <string name="travel_checkbox">Du lịch</string>
+    <string name="music_checkbox">Âm nhạc</string>
+    <string name="male_option">Nam</string>
+    <string name="female_option">Nữ</string>
+</resources>

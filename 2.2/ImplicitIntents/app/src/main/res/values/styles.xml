@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="editTextMargin">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="buttonMargin">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+</resources>

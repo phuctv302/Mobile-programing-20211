@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="summary_detail">: blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="summary_tittle">This is the summary of the Recipe </string>
+    <string name="recipe">Recipe: </string>
+</resources>

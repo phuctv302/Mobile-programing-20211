@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements OnClick{
             dialog.dismiss();
 
             if(jsonArray != null) {
-                ItemJSONAdapter adapter = new ItemJSONAdapter(jsonArray,MainActivity.this);
+                JSONItemAdapter adapter = new JSONItemAdapter(jsonArray,MainActivity.this);
                 recyclerView.setAdapter(adapter);
             }
         }

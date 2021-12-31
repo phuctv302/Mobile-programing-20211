@@ -1,7 +1,5 @@
 package com.example.jsonandasycntask;
 
-import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +7,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.view.menu.MenuView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
@@ -17,11 +14,11 @@ import com.squareup.picasso.Picasso;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class ItemJSONAdapter extends RecyclerView.Adapter<ItemJSONAdapter.ItemViewHolder> {
+public class JSONItemAdapter extends RecyclerView.Adapter<JSONItemAdapter.ItemViewHolder> {
     JSONArray jsonArray;
     private OnClick click;
 
-    public ItemJSONAdapter(JSONArray jsonArray, OnClick click) {
+    public JSONItemAdapter(JSONArray jsonArray, OnClick click) {
         this.jsonArray = jsonArray;
         this.click = click;
     }

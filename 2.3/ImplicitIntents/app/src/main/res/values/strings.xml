@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="website_default">http://developer.android.com</string>
+    <string name="open_website">OPen website</string>
+    <string name="location_default">Golden Gate Brigde</string>
+    <string name="open_location">open location</string>
+    <string name="shared_text_default">This Text will be shared</string>
+    <string name="share_text" >Share this text</string>
+    <string name="enter_location_hint">Enter Location</string>
+    <string name="enter_website_hint">Enter Website</string>
+    <string name="enter_shared_text_hint">Enter Shared Text</string>
+    <string name="chooser_title">"Share this text with: "</string>
+</resources>

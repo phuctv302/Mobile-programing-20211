@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         countButton = findViewById(R.id.button_count);
         countTextview = findViewById((R.id.count_textview));
 
+        // Retrieve data saved
         if (savedInstanceState != null) {
             count = savedInstanceState.getInt("count_text", 0);
             countTextview.setText(String.valueOf(count));
@@ -31,10 +32,17 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * This function is called before onStop()
+     * */
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
 
         outState.putInt("count_text", count);
     }
+
+    /**
+     * Note that the best place to save data is onPause() or onStop()
+     * */
 }
